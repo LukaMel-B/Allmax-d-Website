@@ -18,9 +18,9 @@
 {
 --heading-color: #0E0E0E;
 --body-color: #3C3C3C;
---accent-color: #E5ABF3;
+--accent-color: #5D42FE;
 --light-bg: #F9F9FA;
---dark-bg: #0E0E0E;
+--dark-bg: #1e1e1e;
 --white-bg: #fff;
 --white-color: #fff;
 --light-color: #EAEDF0;
@@ -7182,7 +7182,7 @@ img.plasicon {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #0D0E1D; /* --- Lijn progres kleur --- */
+  stroke: #5D42FE; /* --- Lijn progres kleur --- */
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
@@ -7198,6 +7198,8 @@ img.plasicon {
 
 .sofax-integration-slider-icon-data-wrap.slick-initialized.slick-slider {
   direction: rtl;
+  justify-content: center;
+  align-items: center;
 }
 
 .sofax-integration-slider-icon {
@@ -7208,6 +7210,19 @@ img.plasicon {
 .sofax-testimonial-slider-2.slick-initialized.slick-slider {
   direction: rtl;
 }
+
+.slick-slide {
+  display: flex !important;
+  /* Force Flexbox layout */
+  align-items: center;
+  /* Vertical alignment for all slides */
+  justify-content: center;
+  /* Optional: Center horizontally */
+  height: 120px;
+  /* Match the height of the slide items */
+}
+
+
 
 /*  sofax services section v3 */
 .sofax-service-iconbox-wrap {

@@ -3,7 +3,7 @@
     --body-color: #3C3C3C;
     --accent-color: #5D42FE;
     --light-bg: #F9F9FA;
-    --dark-bg: #0E0E0E;
+--dark-bg: #1e1e1e;
     --white-bg: #fff;
     --white-color: #fff;
     --light-color: #EAEDF0;
@@ -2204,7 +2204,8 @@ header.sofax-header-section.sticky-menu.inner-header {
 
 .sofax-footer-wrap p {
     margin-bottom: 24px;
-    font-size: 20px !important;
+    font-size: 18px !important;
+    font-weight: 300;
 }
 
 .sofax-footer-wrap.light-color {
@@ -2444,6 +2445,16 @@ a.social-icon img {
 .sofax-footer-title-btn-icon:hover {
     border: 1px solid var(--accent-color);
     background-color: var(--accent-color);
+}
+
+.rotated-icon {
+    color: #1e1e1e;
+    transform: rotate(-35deg);
+    font-size: 35px;
+}
+
+.sofax-footer-title-btn-icon:hover .rotated-icon {
+    color: #F0F0EF !important;
 }
 
 @media (max-width: 1199px) {
@@ -8059,7 +8070,7 @@ img.plasicon {
 }
 
 .progress-wrap svg.progress-circle path {
-    stroke: rgb(13, 14, 29);
+    stroke: #5D42FE;
     stroke-width: 4;
     box-sizing: border-box;
     transition: 0.2s linear;
@@ -8084,6 +8095,18 @@ img.plasicon {
 .sofax-testimonial-slider-2.slick-initialized.slick-slider {
     direction: rtl;
 }
+.slick-slide {
+    display: flex !important;
+    /* Force Flexbox layout */
+    align-items: center;
+    /* Vertical alignment for all slides */
+    justify-content: center;
+    /* Optional: Center horizontally */
+    height: 120px;
+    /* Match the height of the slide items */
+}
+
+
 
 .sofax-service-iconbox-wrap {
     display: flex;
@@ -8301,6 +8324,7 @@ img.plasicon {
 
 .sofax-slider-service-section .slick-track {
     display: flex;
+    justify-content: center;
 }
 
 .inner-service1 p {
