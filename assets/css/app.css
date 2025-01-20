@@ -340,32 +340,37 @@ h1,
     letter-spacing: -1px;
   }
 }
-
-h2,
-.h2 {
-  font-size: 75px;
-  line-height: 1.07em; /* 116.667% */
+.h2,
+h2 {
+  font-size: 65px;
+  line-height: 1.07em;
   letter-spacing: -2px;
 }
+
 @media (max-width: 1199px) {
-  h2,
-  .h2 {
-    font-size: 60px;
+
+  .h2,
+  h2 {
+    font-size: 50px;
     letter-spacing: -3px;
   }
 }
+
 @media (max-width: 991px) {
-  h2,
-  .h2 {
-    font-size: 48px;
+
+  .h2,
+  h2 {
+    font-size: 38px;
     font-weight: 600;
     letter-spacing: -0.64px;
   }
 }
+
 @media (max-width: 767px) {
-  h2,
-  .h2 {
-    font-size: 36px;
+
+  .h2,
+  h2 {
+    font-size: 26px;
     letter-spacing: -0.64px;
   }
 }

@@ -355,7 +355,7 @@ h1 {
     align-items: center;
     text-align: center;
    
-    font-size: 120px;
+    font-size:120px;
     letter-spacing: -3px;
     color: rgb(14, 14, 14);
     margin-bottom: 24px;
@@ -490,6 +490,72 @@ h2 {
 
     .h2,
     h2 {
+        font-size: 36px;
+        letter-spacing: -0.64px;
+    }
+}
+h2.footer-sp {
+    font-size: 90px;
+    line-height: 1.07em;
+    letter-spacing: -2px;
+}
+
+@media (max-width: 1199px) {
+
+    h2
+        .footer-sp {
+        font-size: 60px;
+        letter-spacing: -3px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    h2
+        .footer-sp {
+        font-size: 58px;
+        font-weight: 600;
+        letter-spacing: -0.64px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    h2
+        .footer-sp {
+        font-size: 46px;
+        letter-spacing: -0.64px;
+    }
+}
+h2.about-sp {
+    font-size: 65px;
+    line-height: 1.07em;
+    letter-spacing: -2px;
+}
+
+@media (max-width: 1199px) {
+
+    h2
+        .about-sp {
+        font-size: 50px;
+        letter-spacing: -3px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    h2
+        .about-sp {
+        font-size: 48px;
+        font-weight: 600;
+        letter-spacing: -0.64px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    h2
+        .about-sp {
         font-size: 36px;
         letter-spacing: -0.64px;
     }
@@ -2407,7 +2473,6 @@ a.social-icon img {
 
 .sofax-footer-titlev5 {
     padding: 100px 0px;
-    border-bottom: 1px solid var(--light-color);
 }
 
 @media (max-width: 991px) {
@@ -2433,7 +2498,7 @@ a.social-icon img {
 
 .sofax-footer-title-btn-icon {
     padding: 15px;
-    border: 1px solid var(--dark-bg);
+    border: 1px solid var(--light-bg);
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -2448,7 +2513,7 @@ a.social-icon img {
 }
 
 .rotated-icon {
-    color: #1e1e1e;
+    color: #F9F9FA;
     transform: rotate(-35deg);
     font-size: 35px;
 }
@@ -3580,8 +3645,8 @@ h1.post__title {
 }
 
 .sofax-hero-content p {
-    font-size: 25px;
-    letter-spacing: -2px;
+    font-size: 22px;
+    letter-spacing: -1px;
     word-spacing: 2px;
     font-family: 'Formular';
     font-weight: 400;
@@ -3593,8 +3658,8 @@ h1.post__title {
         text-align: center;
     }
           .sofax-hero-content p {
-              font-size: 17px;
-            letter-spacing: -1px;
+              font-size: 15px;
+            letter-spacing: -0.5px;
                 word-spacing: 1px;
           }
           
@@ -3606,20 +3671,22 @@ h1.post__title {
         margin: 0px auto;
     }
         .sofax-hero-content p {
-            font-size: 20px;
+            font-size: 17px;
+            letter-spacing: -1px;
         }
 }
 @media (max-width: 767px) {
 .sofax-hero-content p {
-        font-size: 16px;
-        letter-spacing: -1px;
+    letter-spacing: -0.5px;
+        font-size: 14px;
             word-spacing: 0px;
     }
 }
 @media (max-width: 579px) {
 
     .sofax-hero-content p {
-            font-size: 13px;
+            font-size: 12px;
+            letter-spacing: -0.5px;
         }
 }
 
@@ -3628,8 +3695,7 @@ h1.post__title {
     .sofax-hero-content p {
         margin: 0 20px;
             font-size: 11px;
-            letter-spacing: -1px;
-                word-spacing: -1px;
+            letter-spacing: -0.5px;
         }
 }
 
@@ -7561,6 +7627,27 @@ img.plasicon {
         padding: 60px 0px 32px;
     }
 }
+.sofax-section-padding-lead {
+    padding: 65px 0px 106px;
+}
+
+@media (max-width: 991px) {
+    .sofax-section-padding-lead {
+        padding: 50px 0px 76px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sofax-section-padding-lead {
+        padding: 40px 0px 56px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sofax-section-padding-lead {
+        padding: 30px 0px 32px;
+    }
+}
 
 .sofax-section-padding2 {
     padding: 130px 0px;
@@ -8138,6 +8225,7 @@ img.plasicon {
 
 .sofax-service-iconbox-icon {
     flex-shrink: 0;
+    max-width: 120px;
 }
 
 @media (max-width: 767px) {
