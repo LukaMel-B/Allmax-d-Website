@@ -2,7 +2,7 @@
 "use strict";
 
 // Specify the deadline date
-const deadlineDate = new Date('Decembar 31, 2024 23:59:59').getTime();
+const deadlineDate = new Date('January 31, 2025 16:00:00').getTime();
 
 // Cache all countdown boxes into consts
 const countdownDays = document.querySelector('.countdown-days .number');

@@ -3869,8 +3869,13 @@ h1.post__title {
   margin-bottom: 15px;
 }
 .sofax-iconbox-data2 a {
-  color: var(--white-color);
+  color: var(--dark-bg);
   font-size: 20px;
+}
+
+.sofax-iconbox-data2 a:hover,
+.sofax-iconbox-data2 p:hover {
+  color: var(--accent-bg) !important;
 }
 .sofax-iconbox-data2 a:last-child {
   margin-bottom: 0;
