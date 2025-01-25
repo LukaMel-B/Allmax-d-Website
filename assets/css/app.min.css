@@ -4462,7 +4462,7 @@ h1.post__title {
   
     color: var(--dark-bg);
     font-family: 'Formular';
-    letter-spacing: -2.5px;
+    letter-spacing: -1px;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -5574,9 +5574,8 @@ h1.post__title {
 }
 
 .sofax-pricing-wrap {
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 24px;
+    border-radius: 30px;
+    padding:60px;
     transition: 0.4s;
     background-color: var(--white-bg);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 80px 0px;
@@ -5610,13 +5609,24 @@ h1.post__title {
     line-height: 80px;
 }
 
+.sofax-pricing-footer a.btn-blue {
+    background-color: #447ad6;
+}
 .sofax-pricing-body {
     margin-bottom: 40px;
 }
 
 .sofax-pricing-body h5 {
-    font-weight: 600;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-family: 'Formular';
     margin-bottom: 20px;
+    letter-spacing: -.6px;
+}
+.sofax-pricing-header h4 {
+    color: #1e1e1e;
+    font-weight: 600;
+    letter-spacing: -1px;
 }
 
 .sofax-pricing-body ul li {
@@ -5656,6 +5666,15 @@ h1.post__title {
 @media (max-width: 767px) {
     .pricing-btn {
         margin-bottom: 30px;
+    }
+        .sofax-pricing-wrap {
+            margin-bottom: 20px;
+        }
+}
+@media (max-width: 567px) {
+.sofax-pricing-wrap {
+        border-radius: 30px;
+        padding: 40px;
     }
 }
 
@@ -6662,19 +6681,21 @@ a.sofax-connect-login img {
     }
 }
 
+
+.sofax-content-img img{
+    
+    border-radius: 20px;
+}
 .sofax-content-img {
     position: relative;
     text-align: center;
-    background-image: url("../images/v1/shape5.png");
     background-size: cover;
     padding: 28px 20px;
     border-radius: 20px;
 }
 
 @media (max-width: 991px) {
-    .sofax-content-img {
-        margin-bottom: 40px !important;
-    }
+  
 
     .sofax-content-img img {
         width: 100%;
@@ -6691,6 +6712,9 @@ a.sofax-connect-login img {
     .sofax-content-img2 {
         margin: 60px 0px 30px;
     }
+        .sofax-content-img {
+            padding: 18px 10px;
+        }
 }
 
 .sofax-features-thumb {
@@ -9695,4 +9719,34 @@ button#sofax-submit-btn:hover {
 
    .modal-button:hover {
        background-color: #4a35cc;
+   }
+
+
+
+
+   @media (max-width: 440px) {
+       .sofax-main-field {
+           flex-direction: column;
+           /* Stack label and select vertically */
+           align-items: center;
+           /* Align items to the left */
+       }
+
+       .sofax-main-field label {
+           margin-bottom: 0.5rem;
+           /* Add spacing between the label and dropdown */
+       }
+
+       .sofax-main-field select {
+           width: 100%;
+           /* Ensure the dropdown spans the full width */
+       }
+   }
+   .sofax-main-field select{
+        width: 60%;
+            border-radius: 50px;
+            padding: 12px 24px;
+            height: 50px;
+            outline: 0px;
+            border: 1px solid var(--light-color2) !important;
    }
