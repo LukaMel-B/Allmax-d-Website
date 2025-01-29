@@ -363,7 +363,7 @@ h1 {
     align-items: center;
     text-align: center;
    
-    font-size:120px;
+    font-size:130px;
     letter-spacing: -3px;
     color: rgb(14, 14, 14);
     margin-bottom: 24px;
@@ -399,7 +399,7 @@ h1 {
     .h1,
     h1 {
         margin-bottom: 15px;
-        font-size: 50px;
+        font-size: 60px;
         letter-spacing: -1px;
     }
 }
@@ -407,7 +407,7 @@ h1 {
 
     .h1,
     h1 {
-        font-size: 45px;
+        font-size: 55px;
         letter-spacing: -1px;
     }
 }
@@ -416,13 +416,13 @@ h1 {
 .h1,
     h1 {
         margin-bottom: 12px;
-        font-size: 35px;
+        font-size: 45px;
         letter-spacing: -1px;
     }
 }
 .large-text {
     margin: 0 !important;
-            font-size: calc(100% + 50px);
+            font-size: 170px;
             line-height: .9;
     align-items: center;
         text-align: center;
@@ -453,7 +453,7 @@ h1 {
 
 @media (max-width: 767px) {
     .large-text {
-        font-size: calc(50px + 30px);
+        font-size: calc(60px + 30px);
     }
 }
 @media (max-width: 579px) {
@@ -465,7 +465,7 @@ h1 {
 @media (max-width: 409px) {
 
     .large-text {
-        font-size: calc(35px + 20px);
+        font-size: calc(45px + 20px);
     }
 }
 .h2,
@@ -933,6 +933,9 @@ p:last-child {
 
 .dark-bg {
     background-color: var(--dark-bg);
+}
+.off-bg {
+    background-color: #f0f0ef;
 }
 
 .yellow-bg {
@@ -7716,7 +7719,7 @@ img.plasicon {
     }
 }
 .sofax-section-padding-lead {
-    padding: 60px 0px 60px;
+    padding: 60px 0px 40px;
 }
 
 @media (max-width: 991px) {
@@ -7944,7 +7947,8 @@ img.plasicon {
     margin-bottom: 20px;
 }
 .sofax-default-content p {
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: -.2px;
 }
 @media (max-width: 780px) {
 .sofax-default-content p {
@@ -7965,6 +7969,27 @@ img.plasicon {
             font-family: 'DM Sans', 'Sans Serif';
     }
 }
+@media (max-width: 780px) {
+.sofax-iconbox-data p {
+        font-size: 15px;
+            line-height: normal;
+            letter-spacing: -.4px;
+            font-family: 'DM Sans', 'Sans Serif';
+    }
+
+}
+
+@media (max-width: 480px) {
+.sofax-iconbox-data p {
+        font-size: 15px;
+        font-weight: 500;
+            line-height: normal;
+            letter-spacing: -.4px;
+            font-family: 'DM Sans', 'Sans Serif';
+    }
+}
+
+
 .fs-19 p {
     font-size: 19px !important;
 }
