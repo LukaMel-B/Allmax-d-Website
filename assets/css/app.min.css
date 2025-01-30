@@ -3017,6 +3017,14 @@ button#sofax-subscription-btn:hover {
         margin-top: 40px;
     }
 }
+@media (max-width: 991px) {
+    .form-content-box.apply-form {
+        margin-top: 0px !important;
+    }
+    .form-content-wrap.apply-form {
+        margin-top: 40px !important;
+    }
+}
 
 .form-content-box h3 {
     margin-bottom: 30px;
@@ -9792,6 +9800,14 @@ button#sofax-submit-btn:hover {
 
 
 
+   .sofax-main-field select{
+        width: 60%;
+            border-radius: 50px;
+            padding: 12px 24px;
+            height: 50px;
+            outline: 0px;
+            border: 1px solid var(--light-color2) !important;
+   }
    @media (max-width: 440px) {
        .sofax-main-field {
            flex-direction: column;
@@ -9809,12 +9825,4 @@ button#sofax-submit-btn:hover {
            width: 100%;
            /* Ensure the dropdown spans the full width */
        }
-   }
-   .sofax-main-field select{
-        width: 60%;
-            border-radius: 50px;
-            padding: 12px 24px;
-            height: 50px;
-            outline: 0px;
-            border: 1px solid var(--light-color2) !important;
    }
