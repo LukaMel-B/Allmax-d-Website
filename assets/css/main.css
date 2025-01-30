@@ -714,7 +714,7 @@ bodt {
     background-color: #fff !important;
   }
 
-  .mobile-menu-trigger.light{}
+  /* .mobile-menu-trigger.light{} */
 
   .dark-mode-texts .mobile-menu-trigger span {
     background-color: #13111A;
