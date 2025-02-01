@@ -459,7 +459,7 @@ h1 {
 @media (max-width: 579px) {
 
     .large-text {
-            font-size: calc(50px + 20px);
+            font-size: calc(55px + 20px);
         }
 }
 @media (max-width: 409px) {
@@ -3719,7 +3719,7 @@ h1.post__title {
         text-align: center;
     }
           .sofax-hero-content p {
-              font-size: 15px;
+              font-size: 19px;
             letter-spacing: -0.5px;
                 word-spacing: 1px;
           }
@@ -3732,21 +3732,23 @@ h1.post__title {
         margin: 0px auto;
     }
         .sofax-hero-content p {
-            font-size: 17px;
+            font-size: 19px;
             letter-spacing: -1px;
         }
 }
 @media (max-width: 767px) {
 .sofax-hero-content p {
     letter-spacing: -0.5px;
-        font-size: 14px;
+        font-size: 17px;
             word-spacing: 0px;
     }
 }
 @media (max-width: 579px) {
 
     .sofax-hero-content p {
-            font-size: 12px;
+        margin: 0 20px;
+        text-align: justify;
+            font-size: 15px;
             letter-spacing: -0.5px;
         }
 }
@@ -3755,7 +3757,8 @@ h1.post__title {
 
     .sofax-hero-content p {
         margin: 0 20px;
-            font-size: 11px;
+        text-align: justify;
+            font-size: 14px;
             letter-spacing: -0.5px;
         }
 }
