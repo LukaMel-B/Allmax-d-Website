@@ -9814,18 +9814,18 @@ button#sofax-submit-btn:hover {
             outline: 0px;
             border: 1px solid var(--light-color2) !important;
    }
+      
    @media (max-width: 440px) {
        .sofax-main-field {
            flex-direction: column;
            /* Stack label and select vertically */
-           align-items: center;
+           align-items: start !important;
            /* Align items to the left */
        }
+           .sofax-main-field {
+               margin-bottom: 16px;
+           }
 
-       .sofax-main-field label {
-           margin-bottom: 0.5rem;
-           /* Add spacing between the label and dropdown */
-       }
 
        .sofax-main-field select {
            width: 100%;
